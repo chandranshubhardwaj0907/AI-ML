@@ -1,0 +1,1136 @@
+[
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "day1.averageof2number",
+        "description": "day1.averageof2number",
+        "peekOfCode": "b = int(input(\"enter b:\"))\naverage = (a + b) / 2\nprint(\"The average of\", a, \"and\", b, \"is\", average)",
+        "detail": "day1.averageof2number",
+        "documentation": {}
+    },
+    {
+        "label": "average",
+        "kind": 5,
+        "importPath": "day1.averageof2number",
+        "description": "day1.averageof2number",
+        "peekOfCode": "average = (a + b) / 2\nprint(\"The average of\", a, \"and\", b, \"is\", average)",
+        "detail": "day1.averageof2number",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "day1.datatype",
+        "description": "day1.datatype",
+        "peekOfCode": "age = 35\nprint(type(age))\nnum = 2\nisprime = True\nprint(type(isprime))",
+        "detail": "day1.datatype",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "day1.datatype",
+        "description": "day1.datatype",
+        "peekOfCode": "num = 2\nisprime = True\nprint(type(isprime))",
+        "detail": "day1.datatype",
+        "documentation": {}
+    },
+    {
+        "label": "isprime",
+        "kind": 5,
+        "importPath": "day1.datatype",
+        "description": "day1.datatype",
+        "peekOfCode": "isprime = True\nprint(type(isprime))",
+        "detail": "day1.datatype",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "day1.operators",
+        "description": "day1.operators",
+        "peekOfCode": "a = 10\nb = 3\nprint(\"Addition:\", a + b)\nprint(\"Subtraction:\", a - b)\nprint(\"Multiplication:\", a * b)\nprint(\"Division:\", a / b)\nprint(\"Floor Division:\", a // b)\nprint(\"Modulus:\", a % b)\nprint(\"Exponentiation:\", a ** b)\n# comarison",
+        "detail": "day1.operators",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "day1.operators",
+        "description": "day1.operators",
+        "peekOfCode": "b = 3\nprint(\"Addition:\", a + b)\nprint(\"Subtraction:\", a - b)\nprint(\"Multiplication:\", a * b)\nprint(\"Division:\", a / b)\nprint(\"Floor Division:\", a // b)\nprint(\"Modulus:\", a % b)\nprint(\"Exponentiation:\", a ** b)\n# comarison\na=5",
+        "detail": "day1.operators",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "day1.operators",
+        "description": "day1.operators",
+        "peekOfCode": "x = True\ny = False\nprint(\"AND:\", x and y)\nprint(\"OR:\", x or y)    \nprint(\"NOT:\", not x)\n# assignment\nc = 5\nprint(\"Initial value:\", c)\nc += 2\nprint(\"After += 2:\", c)",
+        "detail": "day1.operators",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "day1.operators",
+        "description": "day1.operators",
+        "peekOfCode": "y = False\nprint(\"AND:\", x and y)\nprint(\"OR:\", x or y)    \nprint(\"NOT:\", not x)\n# assignment\nc = 5\nprint(\"Initial value:\", c)\nc += 2\nprint(\"After += 2:\", c)\nc *= 3",
+        "detail": "day1.operators",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "day1.operators",
+        "description": "day1.operators",
+        "peekOfCode": "c = 5\nprint(\"Initial value:\", c)\nc += 2\nprint(\"After += 2:\", c)\nc *= 3\nprint(\"After *= 3:\", c)\nc -= 4\nprint(\"After -= 4:\", c)\nc /= 2\nprint(\"After /= 2:\", c)",
+        "detail": "day1.operators",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "day1.q1",
+        "description": "day1.q1",
+        "peekOfCode": "name = input(\"Enter your name: \")\nage = int(input(\"Enter your age: \"))\nprint(f\"Hello {name}, you are {age} years old!\")",
+        "detail": "day1.q1",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "day1.q1",
+        "description": "day1.q1",
+        "peekOfCode": "age = int(input(\"Enter your age: \"))\nprint(f\"Hello {name}, you are {age} years old!\")",
+        "detail": "day1.q1",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "day1.q2",
+        "description": "day1.q2",
+        "peekOfCode": "a = int(input(\"Enter the first number: \"))\nb = int(input(\"Enter the second number: \"))\nprint(a+b)\nprint(a*b)\nprint(a/b)\nprint(a-b)",
+        "detail": "day1.q2",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "day1.q2",
+        "description": "day1.q2",
+        "peekOfCode": "b = int(input(\"Enter the second number: \"))\nprint(a+b)\nprint(a*b)\nprint(a/b)\nprint(a-b)",
+        "detail": "day1.q2",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "day1.q3",
+        "description": "day1.q3",
+        "peekOfCode": "a = int(input(\"enter a:\"))\nb = int(input(\"enter b:\"))\nc = float(input(\"enter c:\"))\na = float(a)\nb = float(b)\nprint(\"The average of\", a, \",\", b, \"and\", c, \"is\", (a + b + c) / 3)",
+        "detail": "day1.q3",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "day1.q3",
+        "description": "day1.q3",
+        "peekOfCode": "b = int(input(\"enter b:\"))\nc = float(input(\"enter c:\"))\na = float(a)\nb = float(b)\nprint(\"The average of\", a, \",\", b, \"and\", c, \"is\", (a + b + c) / 3)",
+        "detail": "day1.q3",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "day1.q3",
+        "description": "day1.q3",
+        "peekOfCode": "c = float(input(\"enter c:\"))\na = float(a)\nb = float(b)\nprint(\"The average of\", a, \",\", b, \"and\", c, \"is\", (a + b + c) / 3)",
+        "detail": "day1.q3",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "day1.q3",
+        "description": "day1.q3",
+        "peekOfCode": "a = float(a)\nb = float(b)\nprint(\"The average of\", a, \",\", b, \"and\", c, \"is\", (a + b + c) / 3)",
+        "detail": "day1.q3",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "day1.q3",
+        "description": "day1.q3",
+        "peekOfCode": "b = float(b)\nprint(\"The average of\", a, \",\", b, \"and\", c, \"is\", (a + b + c) / 3)",
+        "detail": "day1.q3",
+        "documentation": {}
+    },
+    {
+        "label": "str",
+        "kind": 5,
+        "importPath": "day1.q4",
+        "description": "day1.q4",
+        "peekOfCode": "str = input(\"Enter a string: \")\nstr1 = int(str)\nstr2 = float(str)\nstr3 = str(str)\nprint(type(str1))\nprint(type(str2))\nprint(type(str3))",
+        "detail": "day1.q4",
+        "documentation": {}
+    },
+    {
+        "label": "str1",
+        "kind": 5,
+        "importPath": "day1.q4",
+        "description": "day1.q4",
+        "peekOfCode": "str1 = int(str)\nstr2 = float(str)\nstr3 = str(str)\nprint(type(str1))\nprint(type(str2))\nprint(type(str3))",
+        "detail": "day1.q4",
+        "documentation": {}
+    },
+    {
+        "label": "str2",
+        "kind": 5,
+        "importPath": "day1.q4",
+        "description": "day1.q4",
+        "peekOfCode": "str2 = float(str)\nstr3 = str(str)\nprint(type(str1))\nprint(type(str2))\nprint(type(str3))",
+        "detail": "day1.q4",
+        "documentation": {}
+    },
+    {
+        "label": "str3",
+        "kind": 5,
+        "importPath": "day1.q4",
+        "description": "day1.q4",
+        "peekOfCode": "str3 = str(str)\nprint(type(str1))\nprint(type(str2))\nprint(type(str3))",
+        "detail": "day1.q4",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "day1.q5",
+        "description": "day1.q5",
+        "peekOfCode": "x = 10 + 3 * 2 ** 2\nprint(x)\n# 10 + 3 *4 \n# 10  + 12 \n# 22",
+        "detail": "day1.q5",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "day1.q6",
+        "description": "day1.q6",
+        "peekOfCode": "a = int(input(\"enter a:\"))\nb = int(input(\"enter b:\"))\na = a+b\nb = a-b\na = a-b\nprint(a)\nprint(b)",
+        "detail": "day1.q6",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "day1.q6",
+        "description": "day1.q6",
+        "peekOfCode": "b = int(input(\"enter b:\"))\na = a+b\nb = a-b\na = a-b\nprint(a)\nprint(b)",
+        "detail": "day1.q6",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "day1.q6",
+        "description": "day1.q6",
+        "peekOfCode": "a = a+b\nb = a-b\na = a-b\nprint(a)\nprint(b)",
+        "detail": "day1.q6",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "day1.q6",
+        "description": "day1.q6",
+        "peekOfCode": "b = a-b\na = a-b\nprint(a)\nprint(b)",
+        "detail": "day1.q6",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "day1.q6",
+        "description": "day1.q6",
+        "peekOfCode": "a = a-b\nprint(a)\nprint(b)",
+        "detail": "day1.q6",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "day1.q7",
+        "description": "day1.q7",
+        "peekOfCode": "a = int(input(\"enter temperature:\"))\nfahrenheit = (a * 9/5) + 32\nprint(fahrenheit)",
+        "detail": "day1.q7",
+        "documentation": {}
+    },
+    {
+        "label": "fahrenheit",
+        "kind": 5,
+        "importPath": "day1.q7",
+        "description": "day1.q7",
+        "peekOfCode": "fahrenheit = (a * 9/5) + 32\nprint(fahrenheit)",
+        "detail": "day1.q7",
+        "documentation": {}
+    },
+    {
+        "label": "pi",
+        "kind": 5,
+        "importPath": "day1.q8",
+        "description": "day1.q8",
+        "peekOfCode": "pi = 3.14\nr = 10\nprint(pi *r*r)",
+        "detail": "day1.q8",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "day1.q8",
+        "description": "day1.q8",
+        "peekOfCode": "r = 10\nprint(pi *r*r)",
+        "detail": "day1.q8",
+        "documentation": {}
+    },
+    {
+        "label": "principal",
+        "kind": 5,
+        "importPath": "day1.q9",
+        "description": "day1.q9",
+        "peekOfCode": "principal = int(input(\"Enter the principal amount: \"))\nrate = int(input(\"Enter the rate of interest: \"))\ntime = int(input(\"Enter the time in years: \"))\nprint( \" SI is \" + str((principal * rate * time) / 100)   )",
+        "detail": "day1.q9",
+        "documentation": {}
+    },
+    {
+        "label": "rate",
+        "kind": 5,
+        "importPath": "day1.q9",
+        "description": "day1.q9",
+        "peekOfCode": "rate = int(input(\"Enter the rate of interest: \"))\ntime = int(input(\"Enter the time in years: \"))\nprint( \" SI is \" + str((principal * rate * time) / 100)   )",
+        "detail": "day1.q9",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 5,
+        "importPath": "day1.q9",
+        "description": "day1.q9",
+        "peekOfCode": "time = int(input(\"Enter the time in years: \"))\nprint( \" SI is \" + str((principal * rate * time) / 100)   )",
+        "detail": "day1.q9",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "day1.typeconversion",
+        "description": "day1.typeconversion",
+        "peekOfCode": "x = 5       # int\ny = 3.2     # float\nz = \"7\"     # str\n# converting int to float\na = float(x)\nprint(\"Int to Float:\", a)\n# converting float to int\nb = int(y)\nprint(\"Float to Int:\", b)\n# converting str to int",
+        "detail": "day1.typeconversion",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "day1.typeconversion",
+        "description": "day1.typeconversion",
+        "peekOfCode": "y = 3.2     # float\nz = \"7\"     # str\n# converting int to float\na = float(x)\nprint(\"Int to Float:\", a)\n# converting float to int\nb = int(y)\nprint(\"Float to Int:\", b)\n# converting str to int\nc = int(z)",
+        "detail": "day1.typeconversion",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "day1.typeconversion",
+        "description": "day1.typeconversion",
+        "peekOfCode": "z = \"7\"     # str\n# converting int to float\na = float(x)\nprint(\"Int to Float:\", a)\n# converting float to int\nb = int(y)\nprint(\"Float to Int:\", b)\n# converting str to int\nc = int(z)\nprint(\"Str to Int:\", c)",
+        "detail": "day1.typeconversion",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "day1.typeconversion",
+        "description": "day1.typeconversion",
+        "peekOfCode": "a = float(x)\nprint(\"Int to Float:\", a)\n# converting float to int\nb = int(y)\nprint(\"Float to Int:\", b)\n# converting str to int\nc = int(z)\nprint(\"Str to Int:\", c)\n# converting str to float\nd = float(z)",
+        "detail": "day1.typeconversion",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "day1.typeconversion",
+        "description": "day1.typeconversion",
+        "peekOfCode": "b = int(y)\nprint(\"Float to Int:\", b)\n# converting str to int\nc = int(z)\nprint(\"Str to Int:\", c)\n# converting str to float\nd = float(z)",
+        "detail": "day1.typeconversion",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "day1.typeconversion",
+        "description": "day1.typeconversion",
+        "peekOfCode": "c = int(z)\nprint(\"Str to Int:\", c)\n# converting str to float\nd = float(z)",
+        "detail": "day1.typeconversion",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "day1.typeconversion",
+        "description": "day1.typeconversion",
+        "peekOfCode": "d = float(z)",
+        "detail": "day1.typeconversion",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "day1.Untitled-1",
+        "description": "day1.Untitled-1",
+        "peekOfCode": "a = int(input(\"Enter the first number: \"))\nb = int(input(\"Enter the second number: \"))\na = a+b\nb = a-b\na = a-b\nprint(a)\nprint(b)",
+        "detail": "day1.Untitled-1",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "day1.Untitled-1",
+        "description": "day1.Untitled-1",
+        "peekOfCode": "b = int(input(\"Enter the second number: \"))\na = a+b\nb = a-b\na = a-b\nprint(a)\nprint(b)",
+        "detail": "day1.Untitled-1",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "day1.Untitled-1",
+        "description": "day1.Untitled-1",
+        "peekOfCode": "a = a+b\nb = a-b\na = a-b\nprint(a)\nprint(b)",
+        "detail": "day1.Untitled-1",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "day1.Untitled-1",
+        "description": "day1.Untitled-1",
+        "peekOfCode": "b = a-b\na = a-b\nprint(a)\nprint(b)",
+        "detail": "day1.Untitled-1",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "day1.Untitled-1",
+        "description": "day1.Untitled-1",
+        "peekOfCode": "a = a-b\nprint(a)\nprint(b)",
+        "detail": "day1.Untitled-1",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "day1.userinput",
+        "description": "day1.userinput",
+        "peekOfCode": "a = input(\"Enter your name: \")\nprint(\"Hello, \" + a)",
+        "detail": "day1.userinput",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "day1.variable",
+        "description": "day1.variable",
+        "peekOfCode": "a = 5;\nb = 5;\nprint(a+b)\npi = 3.14\nr = 10\nprint(pi *r*r)\nname = \"John\"\nprint(name)",
+        "detail": "day1.variable",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "day1.variable",
+        "description": "day1.variable",
+        "peekOfCode": "b = 5;\nprint(a+b)\npi = 3.14\nr = 10\nprint(pi *r*r)\nname = \"John\"\nprint(name)",
+        "detail": "day1.variable",
+        "documentation": {}
+    },
+    {
+        "label": "pi",
+        "kind": 5,
+        "importPath": "day1.variable",
+        "description": "day1.variable",
+        "peekOfCode": "pi = 3.14\nr = 10\nprint(pi *r*r)\nname = \"John\"\nprint(name)",
+        "detail": "day1.variable",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "day1.variable",
+        "description": "day1.variable",
+        "peekOfCode": "r = 10\nprint(pi *r*r)\nname = \"John\"\nprint(name)",
+        "detail": "day1.variable",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "day1.variable",
+        "description": "day1.variable",
+        "peekOfCode": "name = \"John\"\nprint(name)",
+        "detail": "day1.variable",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "day2.calculator",
+        "description": "day2.calculator",
+        "peekOfCode": "def add(a,b):\n    return a+b\ndef subtract(a,b):\n    return a-b\ndef multiply(a,b):\n    return a*b\ndef divide(a,b):\n    if b == 0:\n        return \"Error! Division by zero.\"\n    return a/b",
+        "detail": "day2.calculator",
+        "documentation": {}
+    },
+    {
+        "label": "subtract",
+        "kind": 2,
+        "importPath": "day2.calculator",
+        "description": "day2.calculator",
+        "peekOfCode": "def subtract(a,b):\n    return a-b\ndef multiply(a,b):\n    return a*b\ndef divide(a,b):\n    if b == 0:\n        return \"Error! Division by zero.\"\n    return a/b\ndef power(a,b):\n    return a**b",
+        "detail": "day2.calculator",
+        "documentation": {}
+    },
+    {
+        "label": "multiply",
+        "kind": 2,
+        "importPath": "day2.calculator",
+        "description": "day2.calculator",
+        "peekOfCode": "def multiply(a,b):\n    return a*b\ndef divide(a,b):\n    if b == 0:\n        return \"Error! Division by zero.\"\n    return a/b\ndef power(a,b):\n    return a**b\noperation = input(\"Choose operation (+, -, *, /, ^): \")\nmatch operation:",
+        "detail": "day2.calculator",
+        "documentation": {}
+    },
+    {
+        "label": "divide",
+        "kind": 2,
+        "importPath": "day2.calculator",
+        "description": "day2.calculator",
+        "peekOfCode": "def divide(a,b):\n    if b == 0:\n        return \"Error! Division by zero.\"\n    return a/b\ndef power(a,b):\n    return a**b\noperation = input(\"Choose operation (+, -, *, /, ^): \")\nmatch operation:\n    case '+':\n        result = add(number1, number2)",
+        "detail": "day2.calculator",
+        "documentation": {}
+    },
+    {
+        "label": "power",
+        "kind": 2,
+        "importPath": "day2.calculator",
+        "description": "day2.calculator",
+        "peekOfCode": "def power(a,b):\n    return a**b\noperation = input(\"Choose operation (+, -, *, /, ^): \")\nmatch operation:\n    case '+':\n        result = add(number1, number2)\n    case '-':\n        result = subtract(number1, number2)\n    case '*':\n        result = multiply(number1, number2)",
+        "detail": "day2.calculator",
+        "documentation": {}
+    },
+    {
+        "label": "number1",
+        "kind": 5,
+        "importPath": "day2.calculator",
+        "description": "day2.calculator",
+        "peekOfCode": "number1 = float(input(\"Enter the first number: \"))\nnumber2 = float(input(\"Enter the second number: \"))\ndef add(a,b):\n    return a+b\ndef subtract(a,b):\n    return a-b\ndef multiply(a,b):\n    return a*b\ndef divide(a,b):\n    if b == 0:",
+        "detail": "day2.calculator",
+        "documentation": {}
+    },
+    {
+        "label": "number2",
+        "kind": 5,
+        "importPath": "day2.calculator",
+        "description": "day2.calculator",
+        "peekOfCode": "number2 = float(input(\"Enter the second number: \"))\ndef add(a,b):\n    return a+b\ndef subtract(a,b):\n    return a-b\ndef multiply(a,b):\n    return a*b\ndef divide(a,b):\n    if b == 0:\n        return \"Error! Division by zero.\"",
+        "detail": "day2.calculator",
+        "documentation": {}
+    },
+    {
+        "label": "operation",
+        "kind": 5,
+        "importPath": "day2.calculator",
+        "description": "day2.calculator",
+        "peekOfCode": "operation = input(\"Choose operation (+, -, *, /, ^): \")\nmatch operation:\n    case '+':\n        result = add(number1, number2)\n    case '-':\n        result = subtract(number1, number2)\n    case '*':\n        result = multiply(number1, number2)\n    case '/':\n        result = divide(number1, number2)",
+        "detail": "day2.calculator",
+        "documentation": {}
+    },
+    {
+        "label": "simple_interest",
+        "kind": 5,
+        "importPath": "day2.lambda",
+        "description": "day2.lambda",
+        "peekOfCode": "simple_interest = lambda p , r , t : (p*r*t)/100\nresult = simple_interest(1000, 5, 2)\nprint(\"The simple interest is:\", result)",
+        "detail": "day2.lambda",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "day2.lambda",
+        "description": "day2.lambda",
+        "peekOfCode": "result = simple_interest(1000, 5, 2)\nprint(\"The simple interest is:\", result)",
+        "detail": "day2.lambda",
+        "documentation": {}
+    },
+    {
+        "label": "number",
+        "kind": 5,
+        "importPath": "day2.loops",
+        "description": "day2.loops",
+        "peekOfCode": "number = int(input(\"Enter a number: \"))\ni = 1\nwhile i<=10:\n    print(i*number)\n    i +=1",
+        "detail": "day2.loops",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "day2.loops",
+        "description": "day2.loops",
+        "peekOfCode": "i = 1\nwhile i<=10:\n    print(i*number)\n    i +=1",
+        "detail": "day2.loops",
+        "documentation": {}
+    },
+    {
+        "label": "color",
+        "kind": 5,
+        "importPath": "day2.matchcase",
+        "description": "day2.matchcase",
+        "peekOfCode": "color = input(\"Enter a color: \")\nmatch color:\n    case \" green\":\n        print(\"You chose green.\")\n    case \" red\":   \n        print(\"You chose red.\")\n    case \" blue\":\n        print(\"You chose blue.\")\n    case _:\n        print(\"You chose an unknown color.\")",
+        "detail": "day2.matchcase",
+        "documentation": {}
+    },
+    {
+        "label": "printevennumber",
+        "kind": 2,
+        "importPath": "day2.q2",
+        "description": "day2.q2",
+        "peekOfCode": "def printevennumber(start , end):\n    for i in range(start , end+1):\n        if i%2 == 0:\n            print(i)\nprintevennumber(number1 , number2)",
+        "detail": "day2.q2",
+        "documentation": {}
+    },
+    {
+        "label": "number1",
+        "kind": 5,
+        "importPath": "day2.q2",
+        "description": "day2.q2",
+        "peekOfCode": "number1 = int(input(\"Enter the first integer: \"))\nnumber2 = int(input(\"Enter the second integer: \"))\ndef printevennumber(start , end):\n    for i in range(start , end+1):\n        if i%2 == 0:\n            print(i)\nprintevennumber(number1 , number2)",
+        "detail": "day2.q2",
+        "documentation": {}
+    },
+    {
+        "label": "number2",
+        "kind": 5,
+        "importPath": "day2.q2",
+        "description": "day2.q2",
+        "peekOfCode": "number2 = int(input(\"Enter the second integer: \"))\ndef printevennumber(start , end):\n    for i in range(start , end+1):\n        if i%2 == 0:\n            print(i)\nprintevennumber(number1 , number2)",
+        "detail": "day2.q2",
+        "documentation": {}
+    },
+    {
+        "label": "number",
+        "kind": 5,
+        "importPath": "day2.q3",
+        "description": "day2.q3",
+        "peekOfCode": "number = int(input(\"Enter a number: \")) \nwhile number > 0:\n    digit = number%10\n    print(digit)\n    number = number//10",
+        "detail": "day2.q3",
+        "documentation": {}
+    },
+    {
+        "label": "number",
+        "kind": 5,
+        "importPath": "day2.q4",
+        "description": "day2.q4",
+        "peekOfCode": "number = int(input(\"Enter a number: \"))\ncount = 0\nwhile number > 0:\n    digit = number % 10\n    count += 1\n    number = number // 10\nprint(\"The number of digits is:\", count)",
+        "detail": "day2.q4",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 5,
+        "importPath": "day2.q4",
+        "description": "day2.q4",
+        "peekOfCode": "count = 0\nwhile number > 0:\n    digit = number % 10\n    count += 1\n    number = number // 10\nprint(\"The number of digits is:\", count)",
+        "detail": "day2.q4",
+        "documentation": {}
+    },
+    {
+        "label": "number",
+        "kind": 5,
+        "importPath": "day2.q5",
+        "description": "day2.q5",
+        "peekOfCode": "number = int(input(\"Enter a number: \"))\nsum = 0\nwhile number >0:\n    dit = number%10\n    sum += dit\n    number = number//10\nprint(\"The sum of digits is:\", sum)",
+        "detail": "day2.q5",
+        "documentation": {}
+    },
+    {
+        "label": "sum",
+        "kind": 5,
+        "importPath": "day2.q5",
+        "description": "day2.q5",
+        "peekOfCode": "sum = 0\nwhile number >0:\n    dit = number%10\n    sum += dit\n    number = number//10\nprint(\"The sum of digits is:\", sum)",
+        "detail": "day2.q5",
+        "documentation": {}
+    },
+    {
+        "label": "secret_number",
+        "kind": 5,
+        "importPath": "day2.q7",
+        "description": "day2.q7",
+        "peekOfCode": "secret_number = 42\nguess = int(input(\"Guess the secret number: \"))\nif guess < secret_number:\n    print(\"Your guess is below the secret number.\")\nelif guess > secret_number:\n    print(\"Your guess is above the secret number.\")\nelse:\n    print(\"Congratulations! Your guess matches the secret number.\")",
+        "detail": "day2.q7",
+        "documentation": {}
+    },
+    {
+        "label": "guess",
+        "kind": 5,
+        "importPath": "day2.q7",
+        "description": "day2.q7",
+        "peekOfCode": "guess = int(input(\"Guess the secret number: \"))\nif guess < secret_number:\n    print(\"Your guess is below the secret number.\")\nelif guess > secret_number:\n    print(\"Your guess is above the secret number.\")\nelse:\n    print(\"Congratulations! Your guess matches the secret number.\")",
+        "detail": "day2.q7",
+        "documentation": {}
+    },
+    {
+        "label": "primeCheck",
+        "kind": 2,
+        "importPath": "day2.q9",
+        "description": "day2.q9",
+        "peekOfCode": "def primeCheck(num):\n    if num == 1:\n        print(\"1 is neither prime nor composite\")\n    elif num == 2:\n        print(\"Prime\")\n    else:\n        for i in range(2, num):\n            if num % i == 0:\n                print(\"Not Prime\")\n                break",
+        "detail": "day2.q9",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "day2.q9",
+        "description": "day2.q9",
+        "peekOfCode": "n = int(input(\"Enter a number: \"))\nprimeCheck(n)",
+        "detail": "day2.q9",
+        "documentation": {}
+    },
+    {
+        "label": "salary",
+        "kind": 5,
+        "importPath": "day2.salaryifelse",
+        "description": "day2.salaryifelse",
+        "peekOfCode": "salary = float(input(\"Enter your salary: \"))\nif salary <30000:\n    tax = 0.05*salary\nelif 30000 <= salary < 70000:\n    tax = 0.15*salary\nelse:\n    tax = 0.25*salary\nprint(f\"The tax on your {salary} is:\", tax)",
+        "detail": "day2.salaryifelse",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "day2.sum of n numbers",
+        "description": "day2.sum of n numbers",
+        "peekOfCode": "n = int(input(\"Enter a number: \"))\nsum = 0\nfor i in  range(1 , n+1):\n    sum += i ;\nprint(sum)",
+        "detail": "day2.sum of n numbers",
+        "documentation": {}
+    },
+    {
+        "label": "sum",
+        "kind": 5,
+        "importPath": "day2.sum of n numbers",
+        "description": "day2.sum of n numbers",
+        "peekOfCode": "sum = 0\nfor i in  range(1 , n+1):\n    sum += i ;\nprint(sum)",
+        "detail": "day2.sum of n numbers",
+        "documentation": {}
+    },
+    {
+        "label": "dict",
+        "kind": 5,
+        "importPath": "day3.dictionary",
+        "description": "day3.dictionary",
+        "peekOfCode": "dict = {\n    \"name\": \"Alice\",\n    \"age\": 30,\n}\nprint(\"Name:\", dict[\"name\"])",
+        "detail": "day3.dictionary",
+        "documentation": {}
+    },
+    {
+        "label": "info",
+        "kind": 5,
+        "importPath": "day3.dictionarymethods",
+        "description": "day3.dictionarymethods",
+        "peekOfCode": "info = {\n    \"name\": \"John\",\n    \"age\": 25,\n    \"city\": \"New York\",\n    \"surname\": \"Doe\",\n}\nprint(\"Keys:\", info.keys())\nprint(\"Values:\", info.values())\nprint(\"Items:\", info.items())\nprint(info.get(\"name\"))  # Output: Johnn",
+        "detail": "day3.dictionarymethods",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "day3.formatting",
+        "description": "day3.formatting",
+        "peekOfCode": "a = 5\nb = 10\nsum = a + b\nprint(\"The sum is {}\".format(sum))\nprint(\" the sum of {} & {} is {}\".format(a, b, sum))\n#  f-strings  \nc = 5\nd = 10\nprint(f\"The sum of {c} & {d} is {c + d}\")",
+        "detail": "day3.formatting",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "day3.formatting",
+        "description": "day3.formatting",
+        "peekOfCode": "b = 10\nsum = a + b\nprint(\"The sum is {}\".format(sum))\nprint(\" the sum of {} & {} is {}\".format(a, b, sum))\n#  f-strings  \nc = 5\nd = 10\nprint(f\"The sum of {c} & {d} is {c + d}\")",
+        "detail": "day3.formatting",
+        "documentation": {}
+    },
+    {
+        "label": "sum",
+        "kind": 5,
+        "importPath": "day3.formatting",
+        "description": "day3.formatting",
+        "peekOfCode": "sum = a + b\nprint(\"The sum is {}\".format(sum))\nprint(\" the sum of {} & {} is {}\".format(a, b, sum))\n#  f-strings  \nc = 5\nd = 10\nprint(f\"The sum of {c} & {d} is {c + d}\")",
+        "detail": "day3.formatting",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "day3.formatting",
+        "description": "day3.formatting",
+        "peekOfCode": "c = 5\nd = 10\nprint(f\"The sum of {c} & {d} is {c + d}\")",
+        "detail": "day3.formatting",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "day3.formatting",
+        "description": "day3.formatting",
+        "peekOfCode": "d = 10\nprint(f\"The sum of {c} & {d} is {c + d}\")",
+        "detail": "day3.formatting",
+        "documentation": {}
+    },
+    {
+        "label": "marks",
+        "kind": 5,
+        "importPath": "day3.Lists",
+        "description": "day3.Lists",
+        "peekOfCode": "marks = [90, 85, 78, 92, 88]\n# Accessing elements\nprint(\"First mark:\", marks[0])  # Output: 90\nprint(\"Last mark:\", marks[-1])  # Output: 88\nprint(len(marks))  # Output: 5\n#  strings are immutable but lists are mutable\nmarks[2] = 80\nprint(\"Updated marks:\", marks)  # Output: [90, 85, 80, 92, 88]\nprint(type(marks))  # Output: <class 'list'>\n# Adding elements",
+        "detail": "day3.Lists",
+        "documentation": {}
+    },
+    {
+        "label": "marks[2]",
+        "kind": 5,
+        "importPath": "day3.Lists",
+        "description": "day3.Lists",
+        "peekOfCode": "marks[2] = 80\nprint(\"Updated marks:\", marks)  # Output: [90, 85, 80, 92, 88]\nprint(type(marks))  # Output: <class 'list'>\n# Adding elements\nmarks.append(95)\nprint(\"After appending:\", marks)  # Output: [90, 85, 80, 92, 88, 95]\nmarks[:]\nmarks[0:3]\nprint(\"Sliced marks:\", marks[0:3])  # Output: [90, 85, 80]\n#  methods",
+        "detail": "day3.Lists",
+        "documentation": {}
+    },
+    {
+        "label": "tup",
+        "kind": 5,
+        "importPath": "day3.methodtuples",
+        "description": "day3.methodtuples",
+        "peekOfCode": "tup = (3, 4, 5, 6)\n# \"\"\"\n# This script demonstrates basic operations on a tuple in Python.\n# The script performs the following tasks:\n# 1. Initializes a tuple `tup` with integer elements.\n# 2. Iterates through the tuple to calculate the sum of its elements and prints the result.\n# 3. Uses the `index()` method to find the position of a specific element in the tuple.\n# 4. Uses the `count()` method to count the occurrences of a specific element in the tuple.\n# Key Functions:\n# - `tup.index(4)`: Finds the index of the first occurrence of the value `4` in the tuple.",
+        "detail": "day3.methodtuples",
+        "documentation": {}
+    },
+    {
+        "label": "sum",
+        "kind": 5,
+        "importPath": "day3.methodtuples",
+        "description": "day3.methodtuples",
+        "peekOfCode": "sum = 0\nfor i  in tup:\n    sum += i\nprint(sum) \nprint(tup.index(4))\nprint(tup.count(5))",
+        "detail": "day3.methodtuples",
+        "documentation": {}
+    },
+    {
+        "label": "info",
+        "kind": 5,
+        "importPath": "day3.q1",
+        "description": "day3.q1",
+        "peekOfCode": "info = [\n    (\"alice\" , \"math\"),\n    (\"bob\" , \"science\"),\n    (\"charlie\" , \"history\"),\n    (\"david\" , \"english\"),\n    (\"eve\" , \"math\"),\n    (\"frank\" , \"science\"),\n    (\"grace\" , \"history\"),\n    (\"henry\" , \"english\")\n]  ",
+        "detail": "day3.q1",
+        "documentation": {}
+    },
+    {
+        "label": "unique_courses",
+        "kind": 5,
+        "importPath": "day3.q1",
+        "description": "day3.q1",
+        "peekOfCode": "unique_courses = set()\nfor tup in info:\n    unique_courses.add(tup[1])\nprint(unique_courses)    \nfor name , course in info:\n    if course == \"math\":\n        print(name)",
+        "detail": "day3.q1",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "day3.q10",
+        "description": "day3.q10",
+        "peekOfCode": "numbers = [1, 2, 3, 4, 2, 5, 1, 6, 3]\nduplicates = set()\nseen = set()\nfor number in numbers:\n    if number in seen:\n        duplicates.add(number)\n    else:\n        seen.add(number)\nprint(\"Elements that appear more than once:\", duplicates)",
+        "detail": "day3.q10",
+        "documentation": {}
+    },
+    {
+        "label": "duplicates",
+        "kind": 5,
+        "importPath": "day3.q10",
+        "description": "day3.q10",
+        "peekOfCode": "duplicates = set()\nseen = set()\nfor number in numbers:\n    if number in seen:\n        duplicates.add(number)\n    else:\n        seen.add(number)\nprint(\"Elements that appear more than once:\", duplicates)",
+        "detail": "day3.q10",
+        "documentation": {}
+    },
+    {
+        "label": "seen",
+        "kind": 5,
+        "importPath": "day3.q10",
+        "description": "day3.q10",
+        "peekOfCode": "seen = set()\nfor number in numbers:\n    if number in seen:\n        duplicates.add(number)\n    else:\n        seen.add(number)\nprint(\"Elements that appear more than once:\", duplicates)",
+        "detail": "day3.q10",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 5,
+        "importPath": "day3.q11",
+        "description": "day3.q11",
+        "peekOfCode": "string = input(\"enter the string\")\nset = set()\nfor ch in string:\n    set.add(ch)\nprint(set)\nprint(len(set))",
+        "detail": "day3.q11",
+        "documentation": {}
+    },
+    {
+        "label": "set",
+        "kind": 5,
+        "importPath": "day3.q11",
+        "description": "day3.q11",
+        "peekOfCode": "set = set()\nfor ch in string:\n    set.add(ch)\nprint(set)\nprint(len(set))",
+        "detail": "day3.q11",
+        "documentation": {}
+    },
+    {
+        "label": "string1",
+        "kind": 5,
+        "importPath": "day3.q2",
+        "description": "day3.q2",
+        "peekOfCode": "string1 = input(\"Enter a string: \")\nreversed_string = \"\"\nfor char in string1:\n    reversed_string = char + reversed_string\n    # print(\"Reversed string:\", reversed_string)    \n    if(string1 == reversed_string):\n        print(f\"{string1} is a palindrome\")",
+        "detail": "day3.q2",
+        "documentation": {}
+    },
+    {
+        "label": "reversed_string",
+        "kind": 5,
+        "importPath": "day3.q2",
+        "description": "day3.q2",
+        "peekOfCode": "reversed_string = \"\"\nfor char in string1:\n    reversed_string = char + reversed_string\n    # print(\"Reversed string:\", reversed_string)    \n    if(string1 == reversed_string):\n        print(f\"{string1} is a palindrome\")",
+        "detail": "day3.q2",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "day3.q3",
+        "description": "day3.q3",
+        "peekOfCode": "numbers = [10, 20, 30, 40, 50]\nsum = 0\nfor i in numbers:\n    sum = sum+i\n    average = sum/len(numbers)\nprint(\"The average is:\", average)",
+        "detail": "day3.q3",
+        "documentation": {}
+    },
+    {
+        "label": "sum",
+        "kind": 5,
+        "importPath": "day3.q3",
+        "description": "day3.q3",
+        "peekOfCode": "sum = 0\nfor i in numbers:\n    sum = sum+i\n    average = sum/len(numbers)\nprint(\"The average is:\", average)",
+        "detail": "day3.q3",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "day3.q4",
+        "description": "day3.q4",
+        "peekOfCode": "list1 = [1,2,7]\nlist2 = [3,6,4,5]\nmerged_list = list1 + list2\nmerged_list.sort()\nprint(\"Merged and sorted list:\", merged_list)",
+        "detail": "day3.q4",
+        "documentation": {}
+    },
+    {
+        "label": "list2",
+        "kind": 5,
+        "importPath": "day3.q4",
+        "description": "day3.q4",
+        "peekOfCode": "list2 = [3,6,4,5]\nmerged_list = list1 + list2\nmerged_list.sort()\nprint(\"Merged and sorted list:\", merged_list)",
+        "detail": "day3.q4",
+        "documentation": {}
+    },
+    {
+        "label": "merged_list",
+        "kind": 5,
+        "importPath": "day3.q4",
+        "description": "day3.q4",
+        "peekOfCode": "merged_list = list1 + list2\nmerged_list.sort()\nprint(\"Merged and sorted list:\", merged_list)",
+        "detail": "day3.q4",
+        "documentation": {}
+    },
+    {
+        "label": "tuple",
+        "kind": 5,
+        "importPath": "day3.q5",
+        "description": "day3.q5",
+        "peekOfCode": "tuple = (1,2,3,4,5,6,7,8,9,10)\nevennumbertuple = ()\noddnumbertuple = ()\nfor i in tuple:\n    if i%2 == 0:\n        evennumbertuple += (i,) # for creating tuple with single element\n    else:\n        oddnumbertuple += (i,)\nprint(\"Tuple of even numbers:\", evennumbertuple)\nprint(\"Tuple of odd numbers:\", oddnumbertuple)",
+        "detail": "day3.q5",
+        "documentation": {}
+    },
+    {
+        "label": "evennumbertuple",
+        "kind": 5,
+        "importPath": "day3.q5",
+        "description": "day3.q5",
+        "peekOfCode": "evennumbertuple = ()\noddnumbertuple = ()\nfor i in tuple:\n    if i%2 == 0:\n        evennumbertuple += (i,) # for creating tuple with single element\n    else:\n        oddnumbertuple += (i,)\nprint(\"Tuple of even numbers:\", evennumbertuple)\nprint(\"Tuple of odd numbers:\", oddnumbertuple)",
+        "detail": "day3.q5",
+        "documentation": {}
+    },
+    {
+        "label": "oddnumbertuple",
+        "kind": 5,
+        "importPath": "day3.q5",
+        "description": "day3.q5",
+        "peekOfCode": "oddnumbertuple = ()\nfor i in tuple:\n    if i%2 == 0:\n        evennumbertuple += (i,) # for creating tuple with single element\n    else:\n        oddnumbertuple += (i,)\nprint(\"Tuple of even numbers:\", evennumbertuple)\nprint(\"Tuple of odd numbers:\", oddnumbertuple)",
+        "detail": "day3.q5",
+        "documentation": {}
+    },
+    {
+        "label": "info",
+        "kind": 5,
+        "importPath": "day3.q6",
+        "description": "day3.q6",
+        "peekOfCode": "info = {}\nwhile True:\n    print(\"\\n----- MENU -----\")\n    print(\"A : Add a student\")\n    print(\"B : Update marks\")\n    print(\"C : Search for a student\")\n    print(\"D : Display all students\")\n    print(\"E : Exit\")\n    choice = input(\"Enter your choice: \").upper()\n    if choice == \"A\":",
+        "detail": "day3.q6",
+        "documentation": {}
+    },
+    {
+        "label": "#",
+        "kind": 5,
+        "importPath": "day3.q7",
+        "description": "day3.q7",
+        "peekOfCode": "# =\n# [\n# \"apple\",\n# \"banana\",\n# \"kiwi\",\n# \"cherry\",\n# \"mango\"\n# ]\n# Create a dictionary that maps each word to its length.\n# Example:",
+        "detail": "day3.q7",
+        "documentation": {}
+    },
+    {
+        "label": "words",
+        "kind": 5,
+        "importPath": "day3.q7",
+        "description": "day3.q7",
+        "peekOfCode": "words = [\"apple\", \"banana\", \"kiwi\", \"cherry\", \"mango\"]\nword_length_dict = {}\nfor word in words:\n    word_length_dict[word] = len(word)\nprint(\"Dictionary mapping words to their lengths:\", word_length_dict)\n8",
+        "detail": "day3.q7",
+        "documentation": {}
+    },
+    {
+        "label": "word_length_dict",
+        "kind": 5,
+        "importPath": "day3.q7",
+        "description": "day3.q7",
+        "peekOfCode": "word_length_dict = {}\nfor word in words:\n    word_length_dict[word] = len(word)\nprint(\"Dictionary mapping words to their lengths:\", word_length_dict)\n8",
+        "detail": "day3.q7",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 5,
+        "importPath": "day3.q8",
+        "description": "day3.q8",
+        "peekOfCode": "string = input(\"Enter a string\")\ncount  = 0\nfor char in string:\n    if char == \" \":\n        count += 1\nprint(\"Number of spaces in the string:\", count)",
+        "detail": "day3.q8",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "day3.q9",
+        "description": "day3.q9",
+        "peekOfCode": "list1 = [1, 2, 3]\nlist2 = [4, 5, 6]\ncommon_elements = False\nfor item in list1:\n    if item in list2:\n        common_elements = True\n        break\nif not common_elements:\n    print(\"The lists share no common elements.\")\nelse:",
+        "detail": "day3.q9",
+        "documentation": {}
+    },
+    {
+        "label": "list2",
+        "kind": 5,
+        "importPath": "day3.q9",
+        "description": "day3.q9",
+        "peekOfCode": "list2 = [4, 5, 6]\ncommon_elements = False\nfor item in list1:\n    if item in list2:\n        common_elements = True\n        break\nif not common_elements:\n    print(\"The lists share no common elements.\")\nelse:\n    print(\"The lists share at least one common element.\")",
+        "detail": "day3.q9",
+        "documentation": {}
+    },
+    {
+        "label": "common_elements",
+        "kind": 5,
+        "importPath": "day3.q9",
+        "description": "day3.q9",
+        "peekOfCode": "common_elements = False\nfor item in list1:\n    if item in list2:\n        common_elements = True\n        break\nif not common_elements:\n    print(\"The lists share no common elements.\")\nelse:\n    print(\"The lists share at least one common element.\")\n    #  using set ",
+        "detail": "day3.q9",
+        "documentation": {}
+    },
+    {
+        "label": "set1",
+        "kind": 5,
+        "importPath": "day3.q9",
+        "description": "day3.q9",
+        "peekOfCode": "set1 = set(list1)\nset2 = set(list2)\nif set1.isdisjoint(set2): # remember isdisjoint method\n         print(\"The lists share no common elements.\")\nelse:\n    print(\"The lists share at least one common element.\")",
+        "detail": "day3.q9",
+        "documentation": {}
+    },
+    {
+        "label": "set2",
+        "kind": 5,
+        "importPath": "day3.q9",
+        "description": "day3.q9",
+        "peekOfCode": "set2 = set(list2)\nif set1.isdisjoint(set2): # remember isdisjoint method\n         print(\"The lists share no common elements.\")\nelse:\n    print(\"The lists share at least one common element.\")",
+        "detail": "day3.q9",
+        "documentation": {}
+    },
+    {
+        "label": "my_set",
+        "kind": 5,
+        "importPath": "day3.set",
+        "description": "day3.set",
+        "peekOfCode": "my_set = {1, 2, 3, 4, 5, 5, 6, 6}\nprint(my_set)  # Output: {1, 2, 3, 4, 5, 6}\n# Adding an element to the set\nmy_set.add(7)\nprint(my_set)  # Output: {1, 2, 3, 4, 5, 6, 7}\n# empty_set = set()  method to create empty set\nempty_set = set()\nprint(type(empty_set))  # Output: <class 'set'> \n#  methods\nmy_set.remove(3)",
+        "detail": "day3.set",
+        "documentation": {}
+    },
+    {
+        "label": "empty_set",
+        "kind": 5,
+        "importPath": "day3.set",
+        "description": "day3.set",
+        "peekOfCode": "empty_set = set()\nprint(type(empty_set))  # Output: <class 'set'> \n#  methods\nmy_set.remove(3)\nprint(my_set)  # Output: {1, 2, 4, 5, 6, 7}\nmy_set.discard(10)  # Does not raise an error if element not found\nprint(my_set)  # Output: {1, 2, 4, 5, 6, 7}\nmy_set.pop()  # Removes and returns an random element\nprint(my_set)",
+        "detail": "day3.set",
+        "documentation": {}
+    },
+    {
+        "label": "word",
+        "kind": 5,
+        "importPath": "day3.slicing",
+        "description": "day3.slicing",
+        "peekOfCode": "word = \"CHANDRANSHU\"\nprint(word[2:4]) # Output: AN\nprint(word[:5])  # Output: CHAND\nprint(word[5:])  # Output: RANSHU",
+        "detail": "day3.slicing",
+        "documentation": {}
+    },
+    {
+        "label": "word1",
+        "kind": 5,
+        "importPath": "day3.strings",
+        "description": "day3.strings",
+        "peekOfCode": "word1 = \"data science\"\nprint(len(word))  # Output: 6\nprint(word + \" and \" + word1)\nprint(word.upper()) \nprint(word[1])\nfor ch in word:\n    print(ch)",
+        "detail": "day3.strings",
+        "documentation": {}
+    },
+    {
+        "label": "my_tuple",
+        "kind": 5,
+        "importPath": "day3.tuples",
+        "description": "day3.tuples",
+        "peekOfCode": "my_tuple = (10, 20, 30, 40, 50)\nprint(\"The first element is:\", my_tuple[0])\nprint(type(my_tuple))\nprint(len(my_tuple))\n# tuples are immutable\nmytuple2 = (10,)\nprint(type(mytuple2))",
+        "detail": "day3.tuples",
+        "documentation": {}
+    },
+    {
+        "label": "mytuple2",
+        "kind": 5,
+        "importPath": "day3.tuples",
+        "description": "day3.tuples",
+        "peekOfCode": "mytuple2 = (10,)\nprint(type(mytuple2))",
+        "detail": "day3.tuples",
+        "documentation": {}
+    }
+]
