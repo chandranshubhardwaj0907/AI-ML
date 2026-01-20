@@ -1,5 +1,21 @@
 [
     {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
         "label": "b",
         "kind": 5,
         "importPath": "day1.averageof2number",
@@ -1131,6 +1147,465 @@
         "description": "day3.tuples",
         "peekOfCode": "mytuple2 = (10,)\nprint(type(mytuple2))",
         "detail": "day3.tuples",
+        "documentation": {}
+    },
+    {
+        "label": "animal",
+        "kind": 6,
+        "importPath": "day4.pillars.abstraction",
+        "description": "day4.pillars.abstraction",
+        "peekOfCode": "class animal(ABC):\n    @abstractmethod\n    def make_sound(self):\n        pass\nclass lion(animal):\n    def make_sound(self):\n        print(\"roar\")\nclass dog(animal):\n    def make_sound(self):\n        print(\"bark\")",
+        "detail": "day4.pillars.abstraction",
+        "documentation": {}
+    },
+    {
+        "label": "lion",
+        "kind": 6,
+        "importPath": "day4.pillars.abstraction",
+        "description": "day4.pillars.abstraction",
+        "peekOfCode": "class lion(animal):\n    def make_sound(self):\n        print(\"roar\")\nclass dog(animal):\n    def make_sound(self):\n        print(\"bark\")\nlion = lion()\nlion.make_sound()\ndog = dog()\ndog.make_sound()",
+        "detail": "day4.pillars.abstraction",
+        "documentation": {}
+    },
+    {
+        "label": "dog",
+        "kind": 6,
+        "importPath": "day4.pillars.abstraction",
+        "description": "day4.pillars.abstraction",
+        "peekOfCode": "class dog(animal):\n    def make_sound(self):\n        print(\"bark\")\nlion = lion()\nlion.make_sound()\ndog = dog()\ndog.make_sound()",
+        "detail": "day4.pillars.abstraction",
+        "documentation": {}
+    },
+    {
+        "label": "lion",
+        "kind": 5,
+        "importPath": "day4.pillars.abstraction",
+        "description": "day4.pillars.abstraction",
+        "peekOfCode": "lion = lion()\nlion.make_sound()\ndog = dog()\ndog.make_sound()",
+        "detail": "day4.pillars.abstraction",
+        "documentation": {}
+    },
+    {
+        "label": "dog",
+        "kind": 5,
+        "importPath": "day4.pillars.abstraction",
+        "description": "day4.pillars.abstraction",
+        "peekOfCode": "dog = dog()\ndog.make_sound()",
+        "detail": "day4.pillars.abstraction",
+        "documentation": {}
+    },
+    {
+        "label": "bankaccount",
+        "kind": 6,
+        "importPath": "day4.pillars.encapsulation",
+        "description": "day4.pillars.encapsulation",
+        "peekOfCode": "class bankaccount:\n    def __init__(self, name, balance, accountnumber):\n        self.name = name  # public attribute\n        self._balance = balance  # protected attribute just add single underscore\n        self.__accountnumber = accountnumber  # private attribute\n    def get_accountnumber(self):  # getter method to access private attribute\n        return self.__accountnumber\n    def set_accountnumber(self, new_accountnumber):  # setter method to modify private attribute\n        self.__accountnumber = new_accountnumber\nacc1 = bankaccount(\"john\", 5000, \"12345\")",
+        "detail": "day4.pillars.encapsulation",
+        "documentation": {}
+    },
+    {
+        "label": "acc1",
+        "kind": 5,
+        "importPath": "day4.pillars.encapsulation",
+        "description": "day4.pillars.encapsulation",
+        "peekOfCode": "acc1 = bankaccount(\"john\", 5000, \"12345\")\nprint(acc1.name)  # accessing public attribute\nprint(acc1._balance)  # accessing protected attribute\nprint(acc1.get_accountnumber())  # accessing private attribute",
+        "detail": "day4.pillars.encapsulation",
+        "documentation": {}
+    },
+    {
+        "label": "employee",
+        "kind": 6,
+        "importPath": "day4.pillars.inheritance",
+        "description": "day4.pillars.inheritance",
+        "peekOfCode": "class employee:\n    start_time = \"9 am\"\n    end_time = \"6 pm\"\nclass teacher(employee):  # teacher class is inheriting employee class\n    def __init__(self, subject):\n        self.subject = subject\nt1 = teacher(\"maths\")\nprint(t1.start_time)  # accessing parent class attribute\nprint(t1.subject)  # accessing child class attribute\nprint(teacher.end_time)  # accessing parent class attribute using child class",
+        "detail": "day4.pillars.inheritance",
+        "documentation": {}
+    },
+    {
+        "label": "teacher",
+        "kind": 6,
+        "importPath": "day4.pillars.inheritance",
+        "description": "day4.pillars.inheritance",
+        "peekOfCode": "class teacher(employee):  # teacher class is inheriting employee class\n    def __init__(self, subject):\n        self.subject = subject\nt1 = teacher(\"maths\")\nprint(t1.start_time)  # accessing parent class attribute\nprint(t1.subject)  # accessing child class attribute\nprint(teacher.end_time)  # accessing parent class attribute using child class\n# types of inheritance\n# 1) single inheritance\n# 2) multilevel inheritance",
+        "detail": "day4.pillars.inheritance",
+        "documentation": {}
+    },
+    {
+        "label": "parent",
+        "kind": 6,
+        "importPath": "day4.pillars.inheritance",
+        "description": "day4.pillars.inheritance",
+        "peekOfCode": "class parent:\n    def func1(self):\n        print(\"this is function 1\")\nclass child(parent):\n    def func2(self):\n        print(\"this is function 2\")\nc1 = child()\nc1.func1()\nc1.func2()\n# 2) multilevel inheritance -> when a class inherits from a derived class, creating a multi-level hierarchy",
+        "detail": "day4.pillars.inheritance",
+        "documentation": {}
+    },
+    {
+        "label": "child",
+        "kind": 6,
+        "importPath": "day4.pillars.inheritance",
+        "description": "day4.pillars.inheritance",
+        "peekOfCode": "class child(parent):\n    def func2(self):\n        print(\"this is function 2\")\nc1 = child()\nc1.func1()\nc1.func2()\n# 2) multilevel inheritance -> when a class inherits from a derived class, creating a multi-level hierarchy\nclass grandparent:\n    def func1(self):\n        print(\"this is function 1 from grandparent\")",
+        "detail": "day4.pillars.inheritance",
+        "documentation": {}
+    },
+    {
+        "label": "grandparent",
+        "kind": 6,
+        "importPath": "day4.pillars.inheritance",
+        "description": "day4.pillars.inheritance",
+        "peekOfCode": "class grandparent:\n    def func1(self):\n        print(\"this is function 1 from grandparent\")\nclass parent(grandparent):\n    def func2(self):\n        print(\"this is function 2 from parent\")\nclass child(parent):\n    def func3(self):\n        print(\"this is function 3 from child\")\nch1 = child()",
+        "detail": "day4.pillars.inheritance",
+        "documentation": {}
+    },
+    {
+        "label": "parent",
+        "kind": 6,
+        "importPath": "day4.pillars.inheritance",
+        "description": "day4.pillars.inheritance",
+        "peekOfCode": "class parent(grandparent):\n    def func2(self):\n        print(\"this is function 2 from parent\")\nclass child(parent):\n    def func3(self):\n        print(\"this is function 3 from child\")\nch1 = child()\nch1.func1()\nch1.func2()\nch1.func3()",
+        "detail": "day4.pillars.inheritance",
+        "documentation": {}
+    },
+    {
+        "label": "child",
+        "kind": 6,
+        "importPath": "day4.pillars.inheritance",
+        "description": "day4.pillars.inheritance",
+        "peekOfCode": "class child(parent):\n    def func3(self):\n        print(\"this is function 3 from child\")\nch1 = child()\nch1.func1()\nch1.func2()\nch1.func3()\n# 3) hierarchical inheritance -> when multiple child classes inherit from a single parent class\nclass parent:\n    def func1(self):",
+        "detail": "day4.pillars.inheritance",
+        "documentation": {}
+    },
+    {
+        "label": "parent",
+        "kind": 6,
+        "importPath": "day4.pillars.inheritance",
+        "description": "day4.pillars.inheritance",
+        "peekOfCode": "class parent:\n    def func1(self):\n        print(\"this is function 1 from parent\")\nclass child1(parent):\n    def func2(self):\n        print(\"this is function 2 from child1\")\nclass child2(parent):\n    def func3(self):\n        print(\"this is function 3 from child2\")\nch1 = child1()",
+        "detail": "day4.pillars.inheritance",
+        "documentation": {}
+    },
+    {
+        "label": "child1",
+        "kind": 6,
+        "importPath": "day4.pillars.inheritance",
+        "description": "day4.pillars.inheritance",
+        "peekOfCode": "class child1(parent):\n    def func2(self):\n        print(\"this is function 2 from child1\")\nclass child2(parent):\n    def func3(self):\n        print(\"this is function 3 from child2\")\nch1 = child1()\nch1.func1()\nch1.func2()\nch2 = child2()",
+        "detail": "day4.pillars.inheritance",
+        "documentation": {}
+    },
+    {
+        "label": "child2",
+        "kind": 6,
+        "importPath": "day4.pillars.inheritance",
+        "description": "day4.pillars.inheritance",
+        "peekOfCode": "class child2(parent):\n    def func3(self):\n        print(\"this is function 3 from child2\")\nch1 = child1()\nch1.func1()\nch1.func2()\nch2 = child2()\nch2.func1()\nch2.func3()\n# 4) multiple inheritance -> when a class inherits from more than one parent class",
+        "detail": "day4.pillars.inheritance",
+        "documentation": {}
+    },
+    {
+        "label": "parent1",
+        "kind": 6,
+        "importPath": "day4.pillars.inheritance",
+        "description": "day4.pillars.inheritance",
+        "peekOfCode": "class parent1:\n    def func1(self):\n        print(\"this is function 1 from parent1\")\nclass parent2:\n    def func2(self):\n        print(\"this is function 2 from parent2\")\nclass child(parent1, parent2):\n    def func3(self):\n        print(\"this is function 3 from child\")\nch1 = child()",
+        "detail": "day4.pillars.inheritance",
+        "documentation": {}
+    },
+    {
+        "label": "parent2",
+        "kind": 6,
+        "importPath": "day4.pillars.inheritance",
+        "description": "day4.pillars.inheritance",
+        "peekOfCode": "class parent2:\n    def func2(self):\n        print(\"this is function 2 from parent2\")\nclass child(parent1, parent2):\n    def func3(self):\n        print(\"this is function 3 from child\")\nch1 = child()\nch1.func1()\nch1.func2()\nch1.func3()",
+        "detail": "day4.pillars.inheritance",
+        "documentation": {}
+    },
+    {
+        "label": "child",
+        "kind": 6,
+        "importPath": "day4.pillars.inheritance",
+        "description": "day4.pillars.inheritance",
+        "peekOfCode": "class child(parent1, parent2):\n    def func3(self):\n        print(\"this is function 3 from child\")\nch1 = child()\nch1.func1()\nch1.func2()\nch1.func3()",
+        "detail": "day4.pillars.inheritance",
+        "documentation": {}
+    },
+    {
+        "label": "t1",
+        "kind": 5,
+        "importPath": "day4.pillars.inheritance",
+        "description": "day4.pillars.inheritance",
+        "peekOfCode": "t1 = teacher(\"maths\")\nprint(t1.start_time)  # accessing parent class attribute\nprint(t1.subject)  # accessing child class attribute\nprint(teacher.end_time)  # accessing parent class attribute using child class\n# types of inheritance\n# 1) single inheritance\n# 2) multilevel inheritance\n# 3) hierarchical inheritance\n# 4) multiple inheritance\n# 5) hybrid inheritance",
+        "detail": "day4.pillars.inheritance",
+        "documentation": {}
+    },
+    {
+        "label": "c1",
+        "kind": 5,
+        "importPath": "day4.pillars.inheritance",
+        "description": "day4.pillars.inheritance",
+        "peekOfCode": "c1 = child()\nc1.func1()\nc1.func2()\n# 2) multilevel inheritance -> when a class inherits from a derived class, creating a multi-level hierarchy\nclass grandparent:\n    def func1(self):\n        print(\"this is function 1 from grandparent\")\nclass parent(grandparent):\n    def func2(self):\n        print(\"this is function 2 from parent\")",
+        "detail": "day4.pillars.inheritance",
+        "documentation": {}
+    },
+    {
+        "label": "ch1",
+        "kind": 5,
+        "importPath": "day4.pillars.inheritance",
+        "description": "day4.pillars.inheritance",
+        "peekOfCode": "ch1 = child()\nch1.func1()\nch1.func2()\nch1.func3()\n# 3) hierarchical inheritance -> when multiple child classes inherit from a single parent class\nclass parent:\n    def func1(self):\n        print(\"this is function 1 from parent\")\nclass child1(parent):\n    def func2(self):",
+        "detail": "day4.pillars.inheritance",
+        "documentation": {}
+    },
+    {
+        "label": "ch1",
+        "kind": 5,
+        "importPath": "day4.pillars.inheritance",
+        "description": "day4.pillars.inheritance",
+        "peekOfCode": "ch1 = child1()\nch1.func1()\nch1.func2()\nch2 = child2()\nch2.func1()\nch2.func3()\n# 4) multiple inheritance -> when a class inherits from more than one parent class\nclass parent1:\n    def func1(self):\n        print(\"this is function 1 from parent1\")",
+        "detail": "day4.pillars.inheritance",
+        "documentation": {}
+    },
+    {
+        "label": "ch2",
+        "kind": 5,
+        "importPath": "day4.pillars.inheritance",
+        "description": "day4.pillars.inheritance",
+        "peekOfCode": "ch2 = child2()\nch2.func1()\nch2.func3()\n# 4) multiple inheritance -> when a class inherits from more than one parent class\nclass parent1:\n    def func1(self):\n        print(\"this is function 1 from parent1\")\nclass parent2:\n    def func2(self):\n        print(\"this is function 2 from parent2\")",
+        "detail": "day4.pillars.inheritance",
+        "documentation": {}
+    },
+    {
+        "label": "ch1",
+        "kind": 5,
+        "importPath": "day4.pillars.inheritance",
+        "description": "day4.pillars.inheritance",
+        "peekOfCode": "ch1 = child()\nch1.func1()\nch1.func2()\nch1.func3()",
+        "detail": "day4.pillars.inheritance",
+        "documentation": {}
+    },
+    {
+        "label": "bird",
+        "kind": 6,
+        "importPath": "day4.pillars.polymorphism",
+        "description": "day4.pillars.polymorphism",
+        "peekOfCode": "class bird:\n    def fly(self):\n        print(\"bird is flying\")\nclass airplane:\n    def fly(self):\n        print(\"airplane is flying\")\nb1 = bird()\nb1.fly()\n# DUCK TYPING\nclass dog:",
+        "detail": "day4.pillars.polymorphism",
+        "documentation": {}
+    },
+    {
+        "label": "airplane",
+        "kind": 6,
+        "importPath": "day4.pillars.polymorphism",
+        "description": "day4.pillars.polymorphism",
+        "peekOfCode": "class airplane:\n    def fly(self):\n        print(\"airplane is flying\")\nb1 = bird()\nb1.fly()\n# DUCK TYPING\nclass dog:\n    def sound(self):\n        print(\"bark\")\nclass cat:",
+        "detail": "day4.pillars.polymorphism",
+        "documentation": {}
+    },
+    {
+        "label": "dog",
+        "kind": 6,
+        "importPath": "day4.pillars.polymorphism",
+        "description": "day4.pillars.polymorphism",
+        "peekOfCode": "class dog:\n    def sound(self):\n        print(\"bark\")\nclass cat:\n    def sound(self):\n        print(\"meow\")\nc1 = cat()\nc1.sound()",
+        "detail": "day4.pillars.polymorphism",
+        "documentation": {}
+    },
+    {
+        "label": "cat",
+        "kind": 6,
+        "importPath": "day4.pillars.polymorphism",
+        "description": "day4.pillars.polymorphism",
+        "peekOfCode": "class cat:\n    def sound(self):\n        print(\"meow\")\nc1 = cat()\nc1.sound()",
+        "detail": "day4.pillars.polymorphism",
+        "documentation": {}
+    },
+    {
+        "label": "b1",
+        "kind": 5,
+        "importPath": "day4.pillars.polymorphism",
+        "description": "day4.pillars.polymorphism",
+        "peekOfCode": "b1 = bird()\nb1.fly()\n# DUCK TYPING\nclass dog:\n    def sound(self):\n        print(\"bark\")\nclass cat:\n    def sound(self):\n        print(\"meow\")\nc1 = cat()",
+        "detail": "day4.pillars.polymorphism",
+        "documentation": {}
+    },
+    {
+        "label": "c1",
+        "kind": 5,
+        "importPath": "day4.pillars.polymorphism",
+        "description": "day4.pillars.polymorphism",
+        "peekOfCode": "c1 = cat()\nc1.sound()",
+        "detail": "day4.pillars.polymorphism",
+        "documentation": {}
+    },
+    {
+        "label": "student",
+        "kind": 6,
+        "importPath": "day4.attributes",
+        "description": "day4.attributes",
+        "peekOfCode": "class student:\n    college_name = \"Thapar\"\n    PI = 3.1\n    def __init__(self, name, age):\n        self.name = name\n        self.age = age\n        self.PI = 3.14  # instance attribute\ns1 = student(\"Alice\", 20)\ns2 = student(\"Bob\", 22)\nprint(\"College Name (class attribute):\", student.college_name)",
+        "detail": "day4.attributes",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": "day4.attributes",
+        "description": "day4.attributes",
+        "peekOfCode": "s1 = student(\"Alice\", 20)\ns2 = student(\"Bob\", 22)\nprint(\"College Name (class attribute):\", student.college_name)\nprint(\"PI from class (class attribute):\", student.PI)\nprint(\"PI from instance (instance attribute):\", s1.PI)\nprint(s1.PI)  # Accessing instance attribute",
+        "detail": "day4.attributes",
+        "documentation": {}
+    },
+    {
+        "label": "s2",
+        "kind": 5,
+        "importPath": "day4.attributes",
+        "description": "day4.attributes",
+        "peekOfCode": "s2 = student(\"Bob\", 22)\nprint(\"College Name (class attribute):\", student.college_name)\nprint(\"PI from class (class attribute):\", student.PI)\nprint(\"PI from instance (instance attribute):\", s1.PI)\nprint(s1.PI)  # Accessing instance attribute",
+        "detail": "day4.attributes",
+        "documentation": {}
+    },
+    {
+        "label": "student",
+        "kind": 6,
+        "importPath": "day4.constructor",
+        "description": "day4.constructor",
+        "peekOfCode": "class student:\n    def __init__(self, name, cgpa):\n        self.name = name\n        self.cgpa = cgpa\n    def get_cgpa(self):\n        return self.cgpa\nstu1 = student(\"RAHUL\", 9.0)\nstu2 = student(\"Chandu\", 9.80)\nprint(stu1.name, stu1.cgpa)\nprint(stu2.name, stu2.cgpa)",
+        "detail": "day4.constructor",
+        "documentation": {}
+    },
+    {
+        "label": "stu1",
+        "kind": 5,
+        "importPath": "day4.constructor",
+        "description": "day4.constructor",
+        "peekOfCode": "stu1 = student(\"RAHUL\", 9.0)\nstu2 = student(\"Chandu\", 9.80)\nprint(stu1.name, stu1.cgpa)\nprint(stu2.name, stu2.cgpa)\nprint(stu1.get_cgpa())\n#  TYPES OF CONSTRUCTOR\n# 1-> default -- which has only self parameter\n# 2-> parameterized -- which has different parameters",
+        "detail": "day4.constructor",
+        "documentation": {}
+    },
+    {
+        "label": "stu2",
+        "kind": 5,
+        "importPath": "day4.constructor",
+        "description": "day4.constructor",
+        "peekOfCode": "stu2 = student(\"Chandu\", 9.80)\nprint(stu1.name, stu1.cgpa)\nprint(stu2.name, stu2.cgpa)\nprint(stu1.get_cgpa())\n#  TYPES OF CONSTRUCTOR\n# 1-> default -- which has only self parameter\n# 2-> parameterized -- which has different parameters",
+        "detail": "day4.constructor",
+        "documentation": {}
+    },
+    {
+        "label": "student",
+        "kind": 6,
+        "importPath": "day4.intro",
+        "description": "day4.intro",
+        "peekOfCode": "class student:\n    subject = \"Python\"\n    college = \"ABC\"\n    year = \"4th year\"\nstu1 = student()\nstu2 = student()\nprint(stu1.subject, stu1.college, stu1.year)\nprint(stu2.subject, stu2.college, stu2.year)",
+        "detail": "day4.intro",
+        "documentation": {}
+    },
+    {
+        "label": "stu1",
+        "kind": 5,
+        "importPath": "day4.intro",
+        "description": "day4.intro",
+        "peekOfCode": "stu1 = student()\nstu2 = student()\nprint(stu1.subject, stu1.college, stu1.year)\nprint(stu2.subject, stu2.college, stu2.year)",
+        "detail": "day4.intro",
+        "documentation": {}
+    },
+    {
+        "label": "stu2",
+        "kind": 5,
+        "importPath": "day4.intro",
+        "description": "day4.intro",
+        "peekOfCode": "stu2 = student()\nprint(stu1.subject, stu1.college, stu1.year)\nprint(stu2.subject, stu2.college, stu2.year)",
+        "detail": "day4.intro",
+        "documentation": {}
+    },
+    {
+        "label": "Circle",
+        "kind": 6,
+        "importPath": "day4.methods",
+        "description": "day4.methods",
+        "peekOfCode": "class Circle:\n    def __init__(self , radius):\n        self.radius = radius \n    def area(self):\n        return 3.14 * self.radius * self.radius\nL1 = Circle(5)\nprint(L1.area())  # Calling the method using the instance  \n# class --> we have to write class name in the parameters of the method\nclass MathOperations:\n    @classmethod",
+        "detail": "day4.methods",
+        "documentation": {}
+    },
+    {
+        "label": "MathOperations",
+        "kind": 6,
+        "importPath": "day4.methods",
+        "description": "day4.methods",
+        "peekOfCode": "class MathOperations:\n    @classmethod\n    def add(cls, a, b):\n        return a + b\nopr1 = MathOperations()\nprint(opr1.add(3, 4))  # Calling the class method using the instance\n# static --> we don't have to write anything in the parameters of the method\nclass Utility:\n    @staticmethod\n    def multiply(a, b):",
+        "detail": "day4.methods",
+        "documentation": {}
+    },
+    {
+        "label": "Utility",
+        "kind": 6,
+        "importPath": "day4.methods",
+        "description": "day4.methods",
+        "peekOfCode": "class Utility:\n    @staticmethod\n    def multiply(a, b):\n        return a * b\nutil1 = Utility()\nprint(util1.multiply(3, 4))  # Calling the static method using the instance",
+        "detail": "day4.methods",
+        "documentation": {}
+    },
+    {
+        "label": "L1",
+        "kind": 5,
+        "importPath": "day4.methods",
+        "description": "day4.methods",
+        "peekOfCode": "L1 = Circle(5)\nprint(L1.area())  # Calling the method using the instance  \n# class --> we have to write class name in the parameters of the method\nclass MathOperations:\n    @classmethod\n    def add(cls, a, b):\n        return a + b\nopr1 = MathOperations()\nprint(opr1.add(3, 4))  # Calling the class method using the instance\n# static --> we don't have to write anything in the parameters of the method",
+        "detail": "day4.methods",
+        "documentation": {}
+    },
+    {
+        "label": "opr1",
+        "kind": 5,
+        "importPath": "day4.methods",
+        "description": "day4.methods",
+        "peekOfCode": "opr1 = MathOperations()\nprint(opr1.add(3, 4))  # Calling the class method using the instance\n# static --> we don't have to write anything in the parameters of the method\nclass Utility:\n    @staticmethod\n    def multiply(a, b):\n        return a * b\nutil1 = Utility()\nprint(util1.multiply(3, 4))  # Calling the static method using the instance",
+        "detail": "day4.methods",
+        "documentation": {}
+    },
+    {
+        "label": "util1",
+        "kind": 5,
+        "importPath": "day4.methods",
+        "description": "day4.methods",
+        "peekOfCode": "util1 = Utility()\nprint(util1.multiply(3, 4))  # Calling the static method using the instance",
+        "detail": "day4.methods",
+        "documentation": {}
+    },
+    {
+        "label": "product",
+        "kind": 6,
+        "importPath": "day4.practice",
+        "description": "day4.practice",
+        "peekOfCode": "class product:\n    count = 0\n    def __init__(self, name, price):\n        self.name = name\n        self.price = price\n        product.count += 1\n    def get_info(self):\n        print(\"price of {self.name} is Rs.{self.price}\")\n    @classmethod\n    def get_count(cls):",
+        "detail": "day4.practice",
+        "documentation": {}
+    },
+    {
+        "label": "p1",
+        "kind": 5,
+        "importPath": "day4.practice",
+        "description": "day4.practice",
+        "peekOfCode": "p1 = product(\"laptop\", 50_000)\np2 = product(\"phone\", 10_000)\np3 = product(\"pen\", 10)\nproduct.get_count()\np1.calc_discount(10_000, 12)",
+        "detail": "day4.practice",
+        "documentation": {}
+    },
+    {
+        "label": "p2",
+        "kind": 5,
+        "importPath": "day4.practice",
+        "description": "day4.practice",
+        "peekOfCode": "p2 = product(\"phone\", 10_000)\np3 = product(\"pen\", 10)\nproduct.get_count()\np1.calc_discount(10_000, 12)",
+        "detail": "day4.practice",
+        "documentation": {}
+    },
+    {
+        "label": "p3",
+        "kind": 5,
+        "importPath": "day4.practice",
+        "description": "day4.practice",
+        "peekOfCode": "p3 = product(\"pen\", 10)\nproduct.get_count()\np1.calc_discount(10_000, 12)",
+        "detail": "day4.practice",
         "documentation": {}
     }
 ]
