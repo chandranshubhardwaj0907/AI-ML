@@ -16,6 +16,30 @@
         "documentation": {}
     },
     {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "bankaccount",
+        "importPath": "day4.pillars.encapsulation",
+        "description": "day4.pillars.encapsulation",
+        "isExtraImport": true,
+        "detail": "day4.pillars.encapsulation",
+        "documentation": {}
+    },
+    {
         "label": "b",
         "kind": 5,
         "importPath": "day1.averageof2number",
@@ -1465,6 +1489,123 @@
         "documentation": {}
     },
     {
+        "label": "book",
+        "kind": 6,
+        "importPath": "day4.book",
+        "description": "day4.book",
+        "peekOfCode": "class book:\n    def __init__(self, title, author):\n        self.title = title\n        self.author = author\n        self.isissued = False\n    def show(self):\n        print(f\"Title: {self.title}, Author: {self.author}, Issued: {self.isissued}\")\nclass student:\n    def __init__(self , name):\n        self.name = name",
+        "detail": "day4.book",
+        "documentation": {}
+    },
+    {
+        "label": "student",
+        "kind": 6,
+        "importPath": "day4.book",
+        "description": "day4.book",
+        "peekOfCode": "class student:\n    def __init__(self , name):\n        self.name = name\n        self.issued_books = []\n    def issue_book(self, book):\n        if not book.isissued:\n            book.isissued = True\n            self.issued_books.append(book.title)\n            print(f\"{self.name} issued {book.title}\")\n        else:",
+        "detail": "day4.book",
+        "documentation": {}
+    },
+    {
+        "label": "library",
+        "kind": 6,
+        "importPath": "day4.book",
+        "description": "day4.book",
+        "peekOfCode": "class library:\n    def __init__(self):\n        self.books = []\n    def add_book(self, book):\n        self.books.append(book)\n        print(f\"Added {book.title} to library\")\n    def show_books(self):\n        for book in self.books:\n            book.show()\nlib = library()",
+        "detail": "day4.book",
+        "documentation": {}
+    },
+    {
+        "label": "lib",
+        "kind": 5,
+        "importPath": "day4.book",
+        "description": "day4.book",
+        "peekOfCode": "lib = library()\nb1 = book(\"Python\", \"Guido\")\nb2 = book(\"Java\", \"James\")\nlib.add_book(b1)\nlib.add_book(b2)\ns1 = student(\"Chandranshu\")\nlib.show_books()\ns1.issue_book(b1)\nlib.show_books()",
+        "detail": "day4.book",
+        "documentation": {}
+    },
+    {
+        "label": "b1",
+        "kind": 5,
+        "importPath": "day4.book",
+        "description": "day4.book",
+        "peekOfCode": "b1 = book(\"Python\", \"Guido\")\nb2 = book(\"Java\", \"James\")\nlib.add_book(b1)\nlib.add_book(b2)\ns1 = student(\"Chandranshu\")\nlib.show_books()\ns1.issue_book(b1)\nlib.show_books()",
+        "detail": "day4.book",
+        "documentation": {}
+    },
+    {
+        "label": "b2",
+        "kind": 5,
+        "importPath": "day4.book",
+        "description": "day4.book",
+        "peekOfCode": "b2 = book(\"Java\", \"James\")\nlib.add_book(b1)\nlib.add_book(b2)\ns1 = student(\"Chandranshu\")\nlib.show_books()\ns1.issue_book(b1)\nlib.show_books()",
+        "detail": "day4.book",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": "day4.book",
+        "description": "day4.book",
+        "peekOfCode": "s1 = student(\"Chandranshu\")\nlib.show_books()\ns1.issue_book(b1)\nlib.show_books()",
+        "detail": "day4.book",
+        "documentation": {}
+    },
+    {
+        "label": "user",
+        "kind": 6,
+        "importPath": "day4.chat",
+        "description": "day4.chat",
+        "peekOfCode": "class user:\n    def __init__(self , name):\n        self.namee = name\n    def send_message(self , chatroom , message):\n        chatroom.add_message(self.namee , message)\nclass message:\n    def __init__(self , sender , content):\n        self.sender = sender\n        self.content = content\nclass chatroom:",
+        "detail": "day4.chat",
+        "documentation": {}
+    },
+    {
+        "label": "message",
+        "kind": 6,
+        "importPath": "day4.chat",
+        "description": "day4.chat",
+        "peekOfCode": "class message:\n    def __init__(self , sender , content):\n        self.sender = sender\n        self.content = content\nclass chatroom:\n    def __init__(self):\n        self.users = []\n        self.messages = []\n    def join(self , user):\n        self.users.append(user)",
+        "detail": "day4.chat",
+        "documentation": {}
+    },
+    {
+        "label": "chatroom",
+        "kind": 6,
+        "importPath": "day4.chat",
+        "description": "day4.chat",
+        "peekOfCode": "class chatroom:\n    def __init__(self):\n        self.users = []\n        self.messages = []\n    def join(self , user):\n        self.users.append(user)\n        print(f\"{user.namee} has joined the chatroom.\")\n    def leave(self , user):\n        self.users.remove(user)\n        print(f\"{user.namee} has left the chatroom.\")",
+        "detail": "day4.chat",
+        "documentation": {}
+    },
+    {
+        "label": "room",
+        "kind": 5,
+        "importPath": "day4.chat",
+        "description": "day4.chat",
+        "peekOfCode": "room = chatroom()\nu1 = user(\"Chandranshu\")\nu2 = user(\"Aman\")\nroom.join(u1)\nroom.join(u2)\nu1.send_message(room, \"Hello!\")\nu2.send_message(room, \"Hi!\")\nroom.view_chat_history()\nroom.leave(u1)",
+        "detail": "day4.chat",
+        "documentation": {}
+    },
+    {
+        "label": "u1",
+        "kind": 5,
+        "importPath": "day4.chat",
+        "description": "day4.chat",
+        "peekOfCode": "u1 = user(\"Chandranshu\")\nu2 = user(\"Aman\")\nroom.join(u1)\nroom.join(u2)\nu1.send_message(room, \"Hello!\")\nu2.send_message(room, \"Hi!\")\nroom.view_chat_history()\nroom.leave(u1)",
+        "detail": "day4.chat",
+        "documentation": {}
+    },
+    {
+        "label": "u2",
+        "kind": 5,
+        "importPath": "day4.chat",
+        "description": "day4.chat",
+        "peekOfCode": "u2 = user(\"Aman\")\nroom.join(u1)\nroom.join(u2)\nu1.send_message(room, \"Hello!\")\nu2.send_message(room, \"Hi!\")\nroom.view_chat_history()\nroom.leave(u1)",
+        "detail": "day4.chat",
+        "documentation": {}
+    },
+    {
         "label": "student",
         "kind": 6,
         "importPath": "day4.constructor",
@@ -1606,6 +1747,267 @@
         "description": "day4.practice",
         "peekOfCode": "p3 = product(\"pen\", 10)\nproduct.get_count()\np1.calc_discount(10_000, 12)",
         "detail": "day4.practice",
+        "documentation": {}
+    },
+    {
+        "label": "BankAccount",
+        "kind": 6,
+        "importPath": "day4.q1",
+        "description": "day4.q1",
+        "peekOfCode": "class BankAccount:\n    def __init__(self, account_number, owner_name, balance=0):\n        self.account_number = account_number\n        self.owner_name = owner_name\n        self.balance = balance\n    def deposit(self, amount):\n        self.balance += amount\n        print(f\"Deposited {amount}. New balance is {self.balance}\")\n    def withdraw(self, amount):\n        if amount > self.balance:",
+        "detail": "day4.q1",
+        "documentation": {}
+    },
+    {
+        "label": "acc1",
+        "kind": 5,
+        "importPath": "day4.q1",
+        "description": "day4.q1",
+        "peekOfCode": "acc1 = BankAccount(\"123456789\", \"Alice\", 1000)\nacc1.deposit(500)\nacc1.withdraw(200)\nprint(f\"Current balance is {acc1.check_balance()}\")",
+        "detail": "day4.q1",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "kind": 6,
+        "importPath": "day4.q2",
+        "description": "day4.q2",
+        "peekOfCode": "class Book:\n    def __init__(self, title, author):\n        self.title = title\n        self.author = author\n        self.reviews = []\n    def add_review(self, review):\n        self.reviews.append(review)\n    def count_reviews(self):\n        return len(self.reviews)\n    def display_reviews(self):",
+        "detail": "day4.q2",
+        "documentation": {}
+    },
+    {
+        "label": "book",
+        "kind": 5,
+        "importPath": "day4.q2",
+        "description": "day4.q2",
+        "peekOfCode": "book = Book(\"The Great Gatsby\", \"F. Scott Fitzgerald\")\nbook.add_review(\"A masterpiece of 20th-century literature.\")\nbook.add_review(\"An intriguing exploration of the American Dream.\")\nprint(\"Number of reviews:\", book.count_reviews())\nbook.display_reviews()",
+        "detail": "day4.q2",
+        "documentation": {}
+    },
+    {
+        "label": "Student",
+        "kind": 6,
+        "importPath": "day4.q3",
+        "description": "day4.q3",
+        "peekOfCode": "class Student:\n    def __init__(self):\n        self.__name = \"\"\n        self.__roll_no = 0\n        self.__marks = 0\n    def get_name(self):\n        return self.__name\n    def set_name(self, name):\n        if name != \"\":\n            self.__name = name",
+        "detail": "day4.q3",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "day4.q3",
+        "description": "day4.q3",
+        "peekOfCode": "s = Student()\ns.set_name(\"Alice\")\ns.set_roll_no(25)\ns.set_marks(85)\nprint(\"Name:\", s.get_name())\nprint(\"Roll No:\", s.get_roll_no())\nprint(\"Marks:\", s.get_marks())",
+        "detail": "day4.q3",
+        "documentation": {}
+    },
+    {
+        "label": "Shape",
+        "kind": 6,
+        "importPath": "day4.q4",
+        "description": "day4.q4",
+        "peekOfCode": "class Shape:\n    def area(self):\n        print(\"Area method of Shape\")\nclass Circle(Shape):\n    def __init__(self, radius):\n        self.radius = radius\n    def area(self):\n        return 3.14 * self.radius * self.radius\nclass Rectangle(Shape):\n    def __init__(self, length, width):",
+        "detail": "day4.q4",
+        "documentation": {}
+    },
+    {
+        "label": "Circle",
+        "kind": 6,
+        "importPath": "day4.q4",
+        "description": "day4.q4",
+        "peekOfCode": "class Circle(Shape):\n    def __init__(self, radius):\n        self.radius = radius\n    def area(self):\n        return 3.14 * self.radius * self.radius\nclass Rectangle(Shape):\n    def __init__(self, length, width):\n        self.length = length\n        self.width = width\n    def area(self):",
+        "detail": "day4.q4",
+        "documentation": {}
+    },
+    {
+        "label": "Rectangle",
+        "kind": 6,
+        "importPath": "day4.q4",
+        "description": "day4.q4",
+        "peekOfCode": "class Rectangle(Shape):\n    def __init__(self, length, width):\n        self.length = length\n        self.width = width\n    def area(self):\n        return self.length * self.width\nclass Triangle(Shape):\n    def __init__(self, base, height):\n        self.base = base\n        self.height = height",
+        "detail": "day4.q4",
+        "documentation": {}
+    },
+    {
+        "label": "Triangle",
+        "kind": 6,
+        "importPath": "day4.q4",
+        "description": "day4.q4",
+        "peekOfCode": "class Triangle(Shape):\n    def __init__(self, base, height):\n        self.base = base\n        self.height = height\n    def area(self):\n        return 0.5 * self.base * self.height\ncircle = Circle(5)\nprint(\"Area of Circle:\", circle.area())",
+        "detail": "day4.q4",
+        "documentation": {}
+    },
+    {
+        "label": "circle",
+        "kind": 5,
+        "importPath": "day4.q4",
+        "description": "day4.q4",
+        "peekOfCode": "circle = Circle(5)\nprint(\"Area of Circle:\", circle.area())",
+        "detail": "day4.q4",
+        "documentation": {}
+    },
+    {
+        "label": "Vehicle",
+        "kind": 6,
+        "importPath": "day4.q5",
+        "description": "day4.q5",
+        "peekOfCode": "class Vehicle:\n    def __init__(self, brand, model):\n        self.brand = brand\n        self.model = model\nclass Car(Vehicle):\n    def __init__(self, brand, model, seats):\n        super().__init__(brand, model)\n        self.seats = seats\nclass Bike(Vehicle):\n    def __init__(self, brand, model, engine_cc):",
+        "detail": "day4.q5",
+        "documentation": {}
+    },
+    {
+        "label": "Car",
+        "kind": 6,
+        "importPath": "day4.q5",
+        "description": "day4.q5",
+        "peekOfCode": "class Car(Vehicle):\n    def __init__(self, brand, model, seats):\n        super().__init__(brand, model)\n        self.seats = seats\nclass Bike(Vehicle):\n    def __init__(self, brand, model, engine_cc):\n        super().__init__(brand, model)\n        self.engine_cc = engine_cc\n# Objects\nv1 = Vehicle(\"Toyota\", \"Corolla\")",
+        "detail": "day4.q5",
+        "documentation": {}
+    },
+    {
+        "label": "Bike",
+        "kind": 6,
+        "importPath": "day4.q5",
+        "description": "day4.q5",
+        "peekOfCode": "class Bike(Vehicle):\n    def __init__(self, brand, model, engine_cc):\n        super().__init__(brand, model)\n        self.engine_cc = engine_cc\n# Objects\nv1 = Vehicle(\"Toyota\", \"Corolla\")\nc1 = Car(\"Toyota\", \"Corolla\", 5)\nb1 = Bike(\"Yamaha\", \"R15\", 155)\n# Output\nprint(\"Vehicle Brand:\", v1.brand)",
+        "detail": "day4.q5",
+        "documentation": {}
+    },
+    {
+        "label": "v1",
+        "kind": 5,
+        "importPath": "day4.q5",
+        "description": "day4.q5",
+        "peekOfCode": "v1 = Vehicle(\"Toyota\", \"Corolla\")\nc1 = Car(\"Toyota\", \"Corolla\", 5)\nb1 = Bike(\"Yamaha\", \"R15\", 155)\n# Output\nprint(\"Vehicle Brand:\", v1.brand)\nprint(\"Car Model:\", c1.model)\nprint(\"Car Seats:\", c1.seats)\nprint(\"Bike Engine CC:\", b1.engine_cc)",
+        "detail": "day4.q5",
+        "documentation": {}
+    },
+    {
+        "label": "c1",
+        "kind": 5,
+        "importPath": "day4.q5",
+        "description": "day4.q5",
+        "peekOfCode": "c1 = Car(\"Toyota\", \"Corolla\", 5)\nb1 = Bike(\"Yamaha\", \"R15\", 155)\n# Output\nprint(\"Vehicle Brand:\", v1.brand)\nprint(\"Car Model:\", c1.model)\nprint(\"Car Seats:\", c1.seats)\nprint(\"Bike Engine CC:\", b1.engine_cc)",
+        "detail": "day4.q5",
+        "documentation": {}
+    },
+    {
+        "label": "b1",
+        "kind": 5,
+        "importPath": "day4.q5",
+        "description": "day4.q5",
+        "peekOfCode": "b1 = Bike(\"Yamaha\", \"R15\", 155)\n# Output\nprint(\"Vehicle Brand:\", v1.brand)\nprint(\"Car Model:\", c1.model)\nprint(\"Car Seats:\", c1.seats)\nprint(\"Bike Engine CC:\", b1.engine_cc)",
+        "detail": "day4.q5",
+        "documentation": {}
+    },
+    {
+        "label": "employee",
+        "kind": 6,
+        "importPath": "day4.q6",
+        "description": "day4.q6",
+        "peekOfCode": "class employee(ABC):\n    @abstractmethod\n    def calculate_salary(self):\n        pass\nclass FullTimeEmployee(employee):\n    def calculate_salary(self):\n        return 50000\nclass PartTimeEmployee(employee):\n    def calculate_salary(self):\n        return 25000",
+        "detail": "day4.q6",
+        "documentation": {}
+    },
+    {
+        "label": "FullTimeEmployee",
+        "kind": 6,
+        "importPath": "day4.q6",
+        "description": "day4.q6",
+        "peekOfCode": "class FullTimeEmployee(employee):\n    def calculate_salary(self):\n        return 50000\nclass PartTimeEmployee(employee):\n    def calculate_salary(self):\n        return 25000\nclass Contractor(employee):\n    def calculate_salary(self):\n        return 30000\n# Objects",
+        "detail": "day4.q6",
+        "documentation": {}
+    },
+    {
+        "label": "PartTimeEmployee",
+        "kind": 6,
+        "importPath": "day4.q6",
+        "description": "day4.q6",
+        "peekOfCode": "class PartTimeEmployee(employee):\n    def calculate_salary(self):\n        return 25000\nclass Contractor(employee):\n    def calculate_salary(self):\n        return 30000\n# Objects\nfte = FullTimeEmployee()\npte = PartTimeEmployee()\ncontractor = Contractor()",
+        "detail": "day4.q6",
+        "documentation": {}
+    },
+    {
+        "label": "Contractor",
+        "kind": 6,
+        "importPath": "day4.q6",
+        "description": "day4.q6",
+        "peekOfCode": "class Contractor(employee):\n    def calculate_salary(self):\n        return 30000\n# Objects\nfte = FullTimeEmployee()\npte = PartTimeEmployee()\ncontractor = Contractor()\nprint(\"Full Time Employee Salary:\", fte.calculate_salary())\nprint(\"Part Time Employee Salary:\", pte.calculate_salary())\nprint(\"Contractor Salary:\", contractor.calculate_salary())",
+        "detail": "day4.q6",
+        "documentation": {}
+    },
+    {
+        "label": "fte",
+        "kind": 5,
+        "importPath": "day4.q6",
+        "description": "day4.q6",
+        "peekOfCode": "fte = FullTimeEmployee()\npte = PartTimeEmployee()\ncontractor = Contractor()\nprint(\"Full Time Employee Salary:\", fte.calculate_salary())\nprint(\"Part Time Employee Salary:\", pte.calculate_salary())\nprint(\"Contractor Salary:\", contractor.calculate_salary())",
+        "detail": "day4.q6",
+        "documentation": {}
+    },
+    {
+        "label": "pte",
+        "kind": 5,
+        "importPath": "day4.q6",
+        "description": "day4.q6",
+        "peekOfCode": "pte = PartTimeEmployee()\ncontractor = Contractor()\nprint(\"Full Time Employee Salary:\", fte.calculate_salary())\nprint(\"Part Time Employee Salary:\", pte.calculate_salary())\nprint(\"Contractor Salary:\", contractor.calculate_salary())",
+        "detail": "day4.q6",
+        "documentation": {}
+    },
+    {
+        "label": "contractor",
+        "kind": 5,
+        "importPath": "day4.q6",
+        "description": "day4.q6",
+        "peekOfCode": "contractor = Contractor()\nprint(\"Full Time Employee Salary:\", fte.calculate_salary())\nprint(\"Part Time Employee Salary:\", pte.calculate_salary())\nprint(\"Contractor Salary:\", contractor.calculate_salary())",
+        "detail": "day4.q6",
+        "documentation": {}
+    },
+    {
+        "label": "person",
+        "kind": 6,
+        "importPath": "day4.q7",
+        "description": "day4.q7",
+        "peekOfCode": "class person:\n    def __init__(self , name , age  = None , address = None):\n        self.name = name\n        self.age = age\n        self.address = address\n    def display(self):\n        print(\"name:\", self.name)\n        if self.age is not None:\n            print(\"age:\", self.age)\n        if self.address is not None:",
+        "detail": "day4.q7",
+        "documentation": {}
+    },
+    {
+        "label": "p1",
+        "kind": 5,
+        "importPath": "day4.q7",
+        "description": "day4.q7",
+        "peekOfCode": "p1 = person(\"ALICE\" ,25)\nprint(person.display(p1))",
+        "detail": "day4.q7",
+        "documentation": {}
+    },
+    {
+        "label": "player",
+        "kind": 6,
+        "importPath": "day4.q8",
+        "description": "day4.q8",
+        "peekOfCode": "class player:\n    player_count = 0\n    def __init__(self , name , level):\n        self.name = name \n        self.level = level\n        player.player_count += 1\n    def count(self):\n        print(f\"the count is {player.player_count}\")\np1 = player(\"Alice\" , 5)\np2 = player(\"Bob\" , 10)",
+        "detail": "day4.q8",
+        "documentation": {}
+    },
+    {
+        "label": "p1",
+        "kind": 5,
+        "importPath": "day4.q8",
+        "description": "day4.q8",
+        "peekOfCode": "p1 = player(\"Alice\" , 5)\np2 = player(\"Bob\" , 10)\nprint(p1.count())",
+        "detail": "day4.q8",
+        "documentation": {}
+    },
+    {
+        "label": "p2",
+        "kind": 5,
+        "importPath": "day4.q8",
+        "description": "day4.q8",
+        "peekOfCode": "p2 = player(\"Bob\" , 10)\nprint(p1.count())",
+        "detail": "day4.q8",
         "documentation": {}
     }
 ]
