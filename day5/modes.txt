@@ -1,0 +1,2 @@
+Hello, World!
+This file demonstrates different file modes in Python.

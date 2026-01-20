@@ -40,6 +40,15 @@
         "documentation": {}
     },
     {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
         "label": "b",
         "kind": 5,
         "importPath": "day1.averageof2number",
@@ -2008,6 +2017,15 @@
         "description": "day4.q8",
         "peekOfCode": "p2 = player(\"Bob\" , 10)\nprint(p1.count())",
         "detail": "day4.q8",
+        "documentation": {}
+    },
+    {
+        "label": "f",
+        "kind": 5,
+        "importPath": "day5.file",
+        "description": "day5.file",
+        "peekOfCode": "f = open(\"day5/sample.txt\", \"w\")\nf.write(\"This is a sample text file.\\n\")\nf.write(\"It contains multiple lines of text.\\n\")\nf.write(\"File operations in Python are easy to understand.\\n\")\nf.close()\n# deleting the file\nimport os\nos.remove(\"day5/sample.txt\")",
+        "detail": "day5.file",
         "documentation": {}
     }
 ]
