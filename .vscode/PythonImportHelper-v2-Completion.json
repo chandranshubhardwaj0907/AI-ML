@@ -49,6 +49,15 @@
         "documentation": {}
     },
     {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
         "label": "b",
         "kind": 5,
         "importPath": "day1.averageof2number",
@@ -2026,6 +2035,60 @@
         "description": "day5.file",
         "peekOfCode": "f = open(\"day5/sample.txt\", \"w\")\nf.write(\"This is a sample text file.\\n\")\nf.write(\"It contains multiple lines of text.\\n\")\nf.write(\"File operations in Python are easy to understand.\\n\")\nf.close()\n# deleting the file\nimport os\nos.remove(\"day5/sample.txt\")",
         "detail": "day5.file",
+        "documentation": {}
+    },
+    {
+        "label": "json_str",
+        "kind": 5,
+        "importPath": "day5.json.",
+        "description": "day5.json.",
+        "peekOfCode": "json_str = '{ \"name\" : \"Chandranshu\",\"age\" : 21, \"city\" : \"Patiala\", \"address\" : { \"country\" : \"India\", \"state\" : \"Punjab\", \"street\" : \"123 Main\"}}'\npy_obj = json.loads(json_str)\nprint(type(py_obj), py_obj)",
+        "detail": "day5.json.",
+        "documentation": {}
+    },
+    {
+        "label": "py_obj",
+        "kind": 5,
+        "importPath": "day5.json.",
+        "description": "day5.json.",
+        "peekOfCode": "py_obj = json.loads(json_str)\nprint(type(py_obj), py_obj)",
+        "detail": "day5.json.",
+        "documentation": {}
+    },
+    {
+        "label": "sq",
+        "kind": 5,
+        "importPath": "day5.listcomprehension",
+        "description": "day5.listcomprehension",
+        "peekOfCode": "sq = [i*i for i in range(6) if i%2 ==0]\nprint(sq)\nnums = [-2 , -3 , 3 , 4 , -1  , 6 , -5 , 7]\nnums = [0 if val <0 else val for val in nums]\nprint(nums)",
+        "detail": "day5.listcomprehension",
+        "documentation": {}
+    },
+    {
+        "label": "nums",
+        "kind": 5,
+        "importPath": "day5.listcomprehension",
+        "description": "day5.listcomprehension",
+        "peekOfCode": "nums = [-2 , -3 , 3 , 4 , -1  , 6 , -5 , 7]\nnums = [0 if val <0 else val for val in nums]\nprint(nums)",
+        "detail": "day5.listcomprehension",
+        "documentation": {}
+    },
+    {
+        "label": "nums",
+        "kind": 5,
+        "importPath": "day5.listcomprehension",
+        "description": "day5.listcomprehension",
+        "peekOfCode": "nums = [0 if val <0 else val for val in nums]\nprint(nums)",
+        "detail": "day5.listcomprehension",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "day5.q3",
+        "description": "day5.q3",
+        "peekOfCode": "numbers = [5, 10, 15, 20, 25]\nnums =[num for num in numbers if num >15]\nprint(nums)",
+        "detail": "day5.q3",
         "documentation": {}
     }
 ]

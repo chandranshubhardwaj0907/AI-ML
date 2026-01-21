@@ -1,0 +1,10 @@
+{
+    "name" : "Chandranshu",
+    "age" : 21,
+    "city" : "Patiala",
+    "address" : {
+        "country" : "India",
+        "state" : "Punjab",
+        "street" : "123 Main"
+    }
+}
